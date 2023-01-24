@@ -1,0 +1,45 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+body{
+    background-image: url("about.jpg");
+    background-size: cover;
+}
+#navbar{
+    display: flex;
+    align-items: center;
+    background-color: black;
+    opacity: 0.6;
+    padding: 22px;
+}
+#navbar ul{
+    display: flex;
+}
+#navbar ul li{
+    list-style: none;
+    font-size: 30px;
+    
+}
+#navbar ul li a{
+    display: block;
+    padding: 3px 50px;
+    border-radius: 20px;
+    text-decoration: none;
+    color: aliceblue;
+
+}
+
+#navbar ul li a:hover{
+    color: black;
+    background-color: aliceblue;
+}
+p{
+    color: aliceblue;
+    font-size: 40px;
+    text-align: center;
+    padding-left: 50px;
+    padding-top: 30px;
+    padding-right: 50px;
+}
+

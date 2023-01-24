@@ -1,0 +1,20 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+
+nav{
+    display: flex;
+}
+nav ul{
+    padding: 2%;
+    padding-top: 1%;
+    padding-bottom: 1%;
+    transition: width 0.2s;
+}
+nav ul:hover{
+    color:palegreen;
+    background-color: rgb(58, 113, 161);
+    
+   
+}

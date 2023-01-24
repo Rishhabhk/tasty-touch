@@ -1,0 +1,57 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+body{
+    background-image: url("sugg.jpg");
+    background-size: cover;
+    color: aliceblue;
+}
+
+
+#navbar{
+    display: flex;
+    align-items: center;
+    background-color: black;
+    opacity: 0.8;
+    padding: 22px;
+}
+#navbar ul{
+    display: flex;
+}
+#navbar ul li{
+    list-style: none;
+    font-size: 30px;
+    
+}
+#navbar ul li a{
+    display: block;
+    padding: 3px 50px;
+    border-radius: 20px;
+    text-decoration: none;
+    color: aliceblue;
+
+}
+
+#navbar ul li a:hover{
+    color: black;
+    background-color: aliceblue;
+}
+
+
+
+.box input{
+    width: 500px;
+    height: 300px;
+    font-size: 20px;
+}  
+
+#main{
+    padding-left: 30px;
+    padding-top: 30px;
+}
+.btn{
+    font-size: 20px;
+    padding-left: 30px;
+    padding-right: 30px;
+}

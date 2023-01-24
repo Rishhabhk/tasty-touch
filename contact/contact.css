@@ -1,0 +1,42 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+body{
+    background-image: url("contact.jpg");
+    background-size: cover;
+}
+div{
+    padding-left: 50px;
+    padding-top: 50px;
+    font-size: 30px;
+}
+#navbar{
+    display: flex;
+    align-items: center;
+    background-color: black;
+    opacity: 0.8;
+    padding: 22px;
+}
+#navbar ul{
+    display: flex;
+}
+#navbar ul li{
+    list-style: none;
+    font-size: 30px;
+    
+}
+#navbar ul li a{
+    display: block;
+    padding: 3px 50px;
+    border-radius: 20px;
+    text-decoration: none;
+    color: aliceblue;
+
+}
+
+#navbar ul li a:hover{
+    color: black;
+    background-color: aliceblue;
+}
+
